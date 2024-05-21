@@ -14,7 +14,7 @@ print(f"DEVICE: {device}")
 
 def parser_args():
     parser = argparse.ArgumentParser(description="model_path")
-    parser.add_argument("--model_path", type=str,default='jinhwak/ASP_pseudo')
+    parser.add_argument("--model_path", type=str,default='jinhwak/APS_pseudo')
     parser.add_argument("--use_auth_token",type=str)
     args = parser.parse_args()
     return args

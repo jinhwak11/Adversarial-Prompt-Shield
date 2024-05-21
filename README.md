@@ -62,13 +62,13 @@ dataset = load_dataset('jinhwak/APS_pseudo_attack')
 ---
 ## 🛡️ APS Models
 we trained several different APS-based classifiers with different training datasets, and provide our SOTA model, APS Pseudo.
-You can get the model from [Huggingface](https://huggingface.co/jinhwak/ASP_pseudo).
+You can get the model from [Huggingface](https://huggingface.co/jinhwak/APS_pseudo).
 
 ### Run APS Pseudo Demo
 
 You can run a demo code for our model. To start, 
 ```Shell
-python APSdemo.py --model_path 'jinhwak/ASP_pseudo' --use_auth_token {your huggingface auth token}
+python APSdemo.py --model_path 'jinhwak/APS_pseudo' --use_auth_token {your huggingface auth token}
 ```
 You can change `model_path` to path of your local repository. 
 It will be ready to get a text from the user, and provide prediction result (binary) from the model.
