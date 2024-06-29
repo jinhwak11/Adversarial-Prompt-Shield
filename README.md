@@ -1,13 +1,32 @@
 # ✅ Adversarial Prompt Shield
-This is the official repository for ["**Robust Safety Classifier Against Jailbreaking Attacks: Adversarial Prompt Shield**"]() by Jinhwa Kim,  Ali Derakhshan, and Ian G. Harris.
+This is the official repository for ["**Robust Safety Classifier Against Jailbreaking Attacks: Adversarial Prompt Shield**"](https://aclanthology.org/2024.woah-1.pdf) by Jinhwa Kim,  Ali Derakhshan, and Ian G. Harris.
 We provide our generated dataset,  APS training codes, and APS trained models to allow everyone to access and replicate our works.
 
-This paper will be published at WOAH (Workshop on Online Abuse and Harms), 2024. 
+This paper is published at WOAH (Workshop on Online Abuse and Harms), 2024. 
 
 ## Citation
-To be updated
-
-
+```
+@inproceedings{kim-etal-2024-robust,
+    title = "Robust Safety Classifier Against Jailbreaking Attacks: Adversarial Prompt Shield",
+    author = "Kim, Jinhwa  and
+      Derakhshan, Ali  and
+      Harris, Ian",
+    editor = {Chung, Yi-Ling  and
+      Talat, Zeerak  and
+      Nozza, Debora  and
+      Plaza-del-Arco, Flor Miriam  and
+      R{\"o}ttger, Paul  and
+      Mostafazadeh Davani, Aida  and
+      Calabrese, Agostina},
+    booktitle = "Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.woah-1.12",
+    pages = "159--170",
+}
+```
 ## Data Preparation 
 We utilized various safety-classification benchmarks including red-team datasets and  an jailbreak attack to train and evaluate our models. The following is the list of datasets. To replicate our training, kindly download each dataset from its original repository and store them in separate directories.
 
