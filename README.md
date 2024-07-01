@@ -1,5 +1,5 @@
 # ✅ Adversarial Prompt Shield
-This is the official repository for ["**Robust Safety Classifier Against Jailbreaking Attacks: Adversarial Prompt Shield**"](https://aclanthology.org/2024.woah-1.pdf) by Jinhwa Kim,  Ali Derakhshan, and Ian G. Harris.
+This is the official repository for ["**Robust Safety Classifier Against Jailbreaking Attacks: Adversarial Prompt Shield**"]([https://aclanthology.org/2024.woah-1.pdf](https://aclanthology.org/2024.woah-1.12.pdf)) by Jinhwa Kim,  Ali Derakhshan, and Ian G. Harris.
 We provide our generated dataset,  APS training codes, and APS trained models to allow everyone to access and replicate our works.
 
 This paper is published at WOAH (Workshop on Online Abuse and Harms), 2024. 
